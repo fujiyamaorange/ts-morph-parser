@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "extensions.ignoreRecommendations": false,
+  "npm.packageManager": "yarn",
+  "typescript.referencesCodeLens.enabled": true
+}
