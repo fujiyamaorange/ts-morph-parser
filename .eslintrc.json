@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "plugins": ["import", "@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/ban-types": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "quotes": ["warn", "single"],
+    "no-var": "error",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": ["error"],
+    "prefer-arrow-callback": "warn"
+  }
+}
