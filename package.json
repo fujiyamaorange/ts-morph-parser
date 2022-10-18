@@ -5,6 +5,9 @@
   "repository": "https://github.com/fujiyamaorange/ts-morph-parser.git",
   "author": "fujiyamaorange <kaito.bakuman@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc src/main.ts && node src/main.js"
+  },
   "devDependencies": {
     "typescript": "^4.8.4"
   }
