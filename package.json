@@ -2,13 +2,16 @@
   "name": "ts-morph",
   "version": "1.0.0",
   "main": "main.js",
+  "type": "commonjs",
   "repository": "https://github.com/fujiyamaorange/ts-morph-parser.git",
-  "author": "fujiyamaorange <kaito.bakuman@gmail.com>",
+  "author": "fujiyamaorange",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/tsc src/main.ts && node src/main.js"
+    "start:main": "./node_modules/.bin/tsc src/main.ts && node src/main.js",
+    "start:morph": "./node_modules/.bin/tsc src/morph.ts && node src/morph.js"
   },
   "devDependencies": {
+    "ts-morph": "^16.0.0",
     "typescript": "^4.8.4"
   }
 }
