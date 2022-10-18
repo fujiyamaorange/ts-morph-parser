@@ -7,9 +7,7 @@
   "author": "fujiyamaorange",
   "license": "MIT",
   "scripts": {
-    "start:main": "./node_modules/.bin/tsc src/main.ts && node src/main.js",
-    "start:morph": "./node_modules/.bin/tsc src/morph.ts && node src/morph.js",
-    "start:eratosthenes": "./node_modules/.bin/tsc src/eratosthenes.ts && node src/eratosthenes.js"
+    "tsc": "./node_modules/.bin/tsc"
   },
   "devDependencies": {
     "ts-morph": "^16.0.0",
