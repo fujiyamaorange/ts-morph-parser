@@ -1,4 +1,5 @@
 "use strict";
+// このコメントは取得できる1
 exports.__esModule = true;
 exports.eratosthenes = void 0;
 /**
@@ -18,8 +19,8 @@ var eratosthenes = function (num) {
             }
         }
     }
-    // 0と1を除く
     n.splice(0, 2);
     return n.filter(function (v) { return v !== 0; });
 };
 exports.eratosthenes = eratosthenes;
+// このコメントは取得できる2

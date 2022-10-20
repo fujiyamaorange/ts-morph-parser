@@ -1,3 +1,5 @@
+// このコメントは取得できる1
+
 /**
  *
  * @param num 求めたい数字
@@ -18,8 +20,9 @@ export const eratosthenes = (num: number) => {
     }
   }
 
-  // 0と1を除く
   n.splice(0, 2)
 
   return n.filter((v) => v !== 0)
 }
+
+// このコメントは取得できる2
